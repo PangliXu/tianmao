@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    font-size: 12px;
+    color: #000;
+    font-family: "微软雅黑";
+}
+
+a:link {
+    text-decoration: none;
+    color: #000;
+}
+
+.banXin {
+    width: 1130px;
+    margin: 0 auto;
+}
+
+
+/* 头部 */
+
+header {
+    background: #f2f2f2;
+    height: 26px;
+}
+
+header .header a {
+    color: #999;
+}
+
+header .header a:hover {
+    color: #ff0036;
+    text-decoration: underline;
+}
+
+header .header .left,
+header .header .box .right {
+    line-height: 26px;
+}
+
+header .header .left li {
+    float: left;
+    padding-right: 20px;
+    color: #999;
+}
+
+header .header .box {
+    float: right;
+}
+
+header .header .box .right>li {
+    float: left;
+    padding-left: 20px;
+}
+
+header .header .box .right>li:last-of-type a:hover {
+    color: #999;
+    text-decoration: none;
+}
+
+header .header .box .right>li:first-of-type,
+header .header .box .right>li:nth-of-type(3),
+header .header .box .right>li:nth-of-type(4),
+header .header .box .right>li:nth-of-type(6),
+header .header .box .right>li:last-of-type {
+    position: relative;
+}
+
+.tao {
+    display: none;
+    position: absolute;
+    left: 10px;
+    width: 95px;
+    border: 1px solid #ccc;
+    border-top: none;
+    padding-left: 10px;
+}
+
+.tao li,
+.shou li {
+    width: 95px;
+    display: block;
+}
+
+.shou {
+    display: none;
+    position: absolute;
+    left: 10px;
+    width: 95px;
+    border: 1px solid #ccc;
+    border-top: none;
+    padding-left: 10px;
+}
+
+.phone {
+    display: none;
+    position: absolute;
+    left: -10px;
+    top: 26px;
+    width: 95px;
+    padding-left: 10px;
+}
+
+.bus {
+    display: none;
+    position: absolute;
+    top: 26px;
+    left: 0;
+    width: 152px;
+    padding: 5px;
+    border: 1px solid #eee;
+    border-top: none;
+}
+
+.bus .boxTop,
+.bus .boxBottom {
+    border-bottom: 1px dotted #827777;
+}
+
+.bus h3 {
+    padding-left: 10px;
+}
+
+.bus span {
+    padding: 0 10px;
+}
+
+.webNav {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 26px;
+    border: 1px solid #eee;
+}
+
+.w_left,
+.w_center,
+.w_right {
+    float: left;
+    width: 35%;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    border-right: 1px solid #eee;
+}
+
+.w_left h2,
+.w_center h2,
+.w_right h2 {
+    margin-bottom: 15px;
+}
+
+.w_left li,
+.w_center li,
+.w_right li {
+    float: left;
+    padding: 0 10px;
+}
+
+.w_left li:first-of-type,
+.w_center li:first-of-type,
+.w_right li:first-of-type {
+    padding-left: 0;
+}
+
+.hot li dl a,
+.mak li dl a,
+.help li dl a {
+    font-size: 14px;
+    color: #666;
+}
+
+.box .right li .w_left .hot li dl a:hover,
+.box .right li .w_center .mak li dl a:hover,
+.box .right li .w_right .help li dl a:hover {
+    color: #ff0036;
+    text-decoration: underline;
+}
+
+.w_center li,
+.w_right li {
+    padding: 0 25px;
+}
+
+.w_right {
+    width: 20%;
+    border: none;
+}
+
+
+/* 头部end */
+
+
+/* 空白区 start */
+
+.blank {
+    height: 150px;
+}
+
+
+/* 空白区 end */

@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    font-size: 12px;
+    color: #000;
+    font-family: "微软雅黑";
+    background: #fff;
+}
+
+a:link {
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* a:hover{
+    text-decoration: underline;
+} */
+
+.banXin {
+    width: 1130px;
+    margin: 0 auto;
+}
+
+
+/* 头部 */
+
+
+/* 身体 */
+
+.body .header {
+    position: relative;
+    height: 108px;
+}
+
+.body .header .left img {
+    float: left;
+    margin-top: 40px;
+}
+
+.body .header .left .slt {
+    float: left;
+    padding-top: 50px;
+    margin-left: 27px;
+}
+
+.body .header .bottom {
+    position: absolute;
+    left: 31%;
+    bottom: 0;
+}
+
+.body .header .bottom li {
+    float: left;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.body .banner {
+    width: 100%;
+    background: #000;
+}
+
+.body .banner img {
+    display: block;
+    width: 100%;
+}
+
+.power div {
+    text-align: center;
+}
+
+.power div:last-of-type {
+    margin-bottom: 20px;
+}
